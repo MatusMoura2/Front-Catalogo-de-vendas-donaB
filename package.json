@@ -30,6 +30,6 @@
     "prettier": "^3.0.3"
   },
   "lint-staged": {
-    "**/*": "yarn lint:fix"
+    "**/*.[tsx, html, css]": "yarn lint:fix"
   }
 }
